@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KIRRA</title>
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/icon.jpeg">
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <style>
+      main {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: 20px;
+      }
+
+      .card {
+        background-color: var(--c3);
+          width: 300px;
+          margin: 15px;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+          text-align: center; /* Centraliza conteúdo */
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+      }
+
+      .card img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin: 0 auto; /* Centraliza a imagem */
+          display: block;
+      }
+
+      #imagem-atual {
+
+        background-color: var(--c1);
+        color: var(--c2);
+
+      }
+
+      .card:hover {
+          transform: scale(1.05);
+      }
+
+      h3 {
+          color: var(--c2);
+      }
+  </style>
+</head>
+<body>
+
+  <header id="cabecalho">
+    <h1 id="titulo">KIRRA</h1>
+    <nav id="navegacao">
+      <i onclick="ir_para('index');">Voltar</i>
+      <i onclick="ir_para('profile');">Nome </i>
+      <i id="mudar-chat">Chats</i>
+      <i onclick="ir_para('temas');">Cores</i>
+      <i onclick="ir_para('about');" >Sobre</i>
+    </nav>
+  </header>
+
+  <div class="quebra"></div>
+
+  <main>
+      <div id="imagem-atual" class="card">
+          <h3>Sua Imagem Atual</h3>
+          <img id="imagem-original" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Synthese%2B.svg/1024px-Synthese%2B.svg"  alt="Imagem do Cartão 0">
+          <p>clique para enviar link</p>
+      </div>
+
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a1.png')">
+          <h3>Bomboso</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a1.png" alt="Imagem do Cartão 1">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png')">
+          <h3>Ligeirinho</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png" alt="Imagem do Cartão 2">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png')">
+          <h3>Risadinha</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png" alt="Imagem do Cartão 3">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a4.png')">
+          <h3>Papinha</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a4.png" alt="Imagem do Cartão 4">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a5.png')">
+          <h3 id="sensorship0">Espalhatobas</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a5.png" alt="Imagem do Cartão 5">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s1.png')">
+          <h3>Maficarlinhos</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s1.png" alt="Imagem do Cartão 6">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s2.png')">
+          <h3>Coach Digital</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s2.png" alt="Imagem do Cartão 7">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s3.png')">
+          <h3>Marquinhos do Xbox</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s3.png" alt="Imagem do Cartão 8">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s4.png')">
+          <h3>Pedrinho zoio de Gato</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s4.png" alt="Imagem do Cartão 9">
+      </div>
+      <div class="card" onclick="atualizarPfp('https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png')">
+          <h3>Gravata</h3>
+          <img src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png" alt="Imagem do Cartão 10">
+      </div>
+  </main>
+
+  <div id="infogeral">
+
+    <span id="esquerda">
+      <i class="fa-solid fa-comments"></i>
+      <i onclick="ir_para('temas');" class="fa-solid fa-paint-roller"></i>
+    </span>
+
+    <span id="direita">
+      <i onclick="ir_para('profile');" class="fa-solid fa-signature"></i>
+      <i onclick="ir_para('index');" class="fa-solid fa-house"></i>
+    </span>
+
+  </div>
+
+  <div class="quebra"></div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c70ac41f4e.js" 
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    
+    if (localStorage.getItem ("nsfw") != "true")
+    {
+      document.getElementById("sensorship0").innerHTML = "Zé Invinha";
+    }
+
+    function atualizarPfp(novoPfp) 
+    {
+
+      localStorage.setItem("pfp", novoPfp);
+      document.getElementById("imagem-original").src
+       = novoPfp;
+
+    }
+
+    function load_pfp ()
+      {
+
+        var pfp = localStorage.getItem("pfp");
+
+        if(pfp)
+        document.getElementById("imagem-original").src
+         = pfp;
+
+      }
+
+    load_pfp();
+
+    document.getElementById("imagem-atual").onclick = async function () {
+      var pfp = await exibir_input("Digite o link da imagem");
+
+      if (pfp) {
+        localStorage.setItem("pfp", pfp);
+        document.getElementById("imagem-original").src = pfp;
+      }
+    };
+
+  </script>
+</body>
+
+</html>

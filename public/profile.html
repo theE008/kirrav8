@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KIRRA</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/icon.jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+
+  <header id="cabecalho">
+    <h1 id="titulo">KIRRA</h1>
+    <nav id="navegacao">
+      <i onclick="ir_para('index');">Voltar</i>
+      <i onclick="ir_para('imagem');">Foto </i>
+      <i id="mudar-chat">Chats</i>
+      <i onclick="ir_para('temas');">Cores</i>
+      <i onclick="ir_para('about');" >Sobre</i>
+    </nav>
+  </header>
+
+  <main id="profile-main">                      
+    
+    <img onclick="ir_para('imagem');" id="profile-usuario" 
+      width="170px" height="170px">
+
+    <div id="profile-caixa">
+      <h2>
+        
+      Nome: <span id="profile-nome"> Carregando...</span> <i class="fa-solid fa-pencil"></i>
+        
+      </h2>
+      
+      <i id="profile-random-nome" onclick="nome_aleatorio();" class="fa-solid fa-shuffle"></i>
+      <button onclick="ir_para('index');" style= "background-color: var(--c7); color: var(--c2); border-radius: 15px;  border-width: 0;">salvar</button>
+      <h3>
+        
+      Servidor atual: <span id="profile-server"> Carregando...</span> <i class="fa-solid fa-pencil"></i>
+        
+      </h3>
+      
+    </div>
+
+    <p id="profile-recardo">
+
+     Carregando...
+      
+    </p>
+  </main>
+
+  <main style="display:none;" id="profile-seuhtml">
+
+    <span id="profile-change">Clique aqui para mudar o código exibido abaixo</span>
+
+    <div style="width: 100% !important;" id="profile-editavelseuhtml">
+      Carregando...
+    </div>
+
+    <span onclick="ir_para('site');" id="profile-open">Clique aqui para abrir o site</span>
+
+  </main>
+    
+  <div id="infogeral">
+
+    <span id="esquerda">
+      <i class="fa-solid fa-comments"></i>
+      <i onclick="ir_para('temas');" class="fa-solid fa-paint-roller"></i>
+    </span>
+
+    <span id="direita">
+      <i onclick="ir_para('imagem');" class="fa-solid fa-image"></i>
+      <i onclick="ir_para('index');" class="fa-solid fa-house"></i>
+    </span>
+
+  </div>
+
+  <div class="quebra"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c70ac41f4e.js" 
+    crossorigin="anonymous"></script>
+  <script>
+
+    function nome_aleatorio()
+    {
+
+      var normie = gerarNomeAleatorio();
+      localStorage.setItem("nome", normie);
+      document.getElementById("profile-nome").innerHTML
+       = normie;
+      
+    }
+      
+    function load ()
+      {
+
+        var pfp = localStorage.getItem("pfp");
+        var nome = localStorage.getItem("nome");
+        var chat = localStorage.getItem("chat");
+        var description = localStorage.getItem("description");
+        var yourhtml = localStorage.getItem("yourhtml");
+
+        if(pfp)
+        document.getElementById("profile-usuario").src
+         = pfp;
+
+        if(nome)
+        document.getElementById("profile-nome").innerHTML
+         = nome;
+
+        if(chat)
+        document.getElementById("profile-server").innerHTML
+         = chat;
+
+        if(description)
+        document.getElementById("profile-recardo").innerHTML
+         = description;
+
+        if(yourhtml)
+        document.getElementById("profile-editavelseuhtml").innerHTML
+         = yourhtml;
+
+      }
+
+    load();
+
+    adicionar_prompt_especifico
+      ("profile-nome", "Digite seu novo nome", "nome");
+
+    adicionar_prompt_especifico
+      ("profile-server", "Digite seu novo chat atual", "chat");
+
+    adicionar_prompt_especifico
+      ("profile-recardo", "Insira sua nova descrição", "description");
+
+    document.getElementById("profile-change").onclick = async function () {
+      var info = await exibir_input("Insira o novo HTML do seu site");
+
+      if (info) {
+        localStorage.setItem("yourhtml", info);
+        document.getElementById("profile-editavelseuhtml").innerHTML = info;
+      }
+    };
+
+  </script>
+</body>
+
+</html>

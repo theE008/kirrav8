@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/icon.jpeg">
+  <title>Kirra te dá boas vindas!</title>
+</head>
+  <style>
+
+    #tititle
+    {
+
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 16vw;
+      text-align: center;
+      font-style: italic;
+      color: var(--c3);
+      max-height: 100px;
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+      
+    }
+
+    @keyframes zoomIn {
+      
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.5);
+      }
+    }
+
+    .zoomin {
+      
+      animation: zoomIn 3s forwards;
+      
+    }
+    
+    #anima
+    {
+
+      font-size: 10vw !important;
+      text-align: center;
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+      
+    }
+    
+    body {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: var(--c8);
+      
+    }
+    button {
+      
+      padding: 15px 15px;
+      font-size: 200px;
+      background-color: var(--c1);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      border-radius: 70px;
+      
+    }
+    button:hover {
+      
+      transform: scale(1.1);
+      
+    }
+
+      
+  </style>
+<body>
+
+  <button id="botao" onclick="playAudio()">
+    <i class="fa-solid fa-circle-play fa-spin-pulse"></i>
+  </button>
+
+  <h1 id="anima" style="display: none;">PARA CONVERSAR</h1>
+  <div>
+    <h1 id="autor" style="display: none; top: 20px;">TEAM BA1</h1>
+  </div>
+  <div>
+    <h1 id="tititle" style="display: none;">KIRRA</h1>
+  </div>
+
+  
+  <audio id="kirra-audio" src="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/Kirra.mp3?v=1735647336126" onended="window.location.href='profile.html'"></audio>
+
+  <script src="https://kit.fontawesome.com/c70ac41f4e.js" crossorigin="anonymous"></script>
+  <script>
+
+    function gerarNomeAleatorio() {
+      const nomes_a = ['Ali', 'Bo', 'Char', 'Di', 'E', 'Fran', 'Gra', 'Hen', "Ju", "Kar", "Lar", "Mar", "Nat", "Ori", "John", "Qui", "Ran", "Sab", "Tan", "Uli", "Vic", "Wes", "Xan", "Yan", "Zan"];
+      const nomes_b = ['ce', 'b', 'lie', 'rceu', 'du', 'cisco', 'cias', 'ry', 'ca', 'en', 'zaro', 'celão', 'alia', 'undo', 'duro', 'tandeiro', 'dro', 'ida', 'gente', 'cersos', 'uontem', 'micelo', 'dão', 'dere', 'gado'];
+
+      const nomeAleatorio_a = nomes_a[Math.floor(Math.random() * nomes_a.length)];
+      const nomeAleatorio_b = nomes_b[Math.floor(Math.random() * nomes_b.length)];
+      const nomeAleatorio_A = nomes_a[Math.floor(Math.random() * nomes_a.length)];
+      const nomeAleatorio_B = nomes_b[Math.floor(Math.random() * nomes_b.length)];
+
+      return `${nomeAleatorio_a}${nomeAleatorio_b} ${nomeAleatorio_A}${nomeAleatorio_B}`;
+    }
+    
+    localStorage.setItem
+      ("description", "Clique nas coisas, muito é alterável e/ou interagível!");
+    localStorage.setItem
+      ("nome", gerarNomeAleatorio());
+    localStorage.setItem
+      ("nsfw", "false");
+    
+    if (!localStorage.getItem ("chat"))
+      localStorage.setItem
+        ("chat", "Geral");
+
+    // Array com os caminhos das imagens
+    var pfpArray = [
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a1.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a4.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a5.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s1.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s2.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s3.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s4.png',
+        'https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png'
+    ];
+
+    // Escolher aleatoriamente um valor do array
+    var pfpEscolhido = pfpArray[Math.floor(Math.random() * pfpArray.length)];
+
+    // Salvar o valor escolhido no localStorage com a chave 'pfp'
+    localStorage.setItem('pfp', pfpEscolhido);
+    localStorage.setItem('yourhtml','<span class="jeff"> Hospedagem gratuita e perfil extremamente customizável! </span>');
+
+    function playAudio() 
+    {
+      
+      var audio = document.getElementById('kirra-audio');
+      audio.play();
+      document.getElementById('botao').style.display = 'none';
+      document.getElementById('anima').style.display = 'block';
+      
+    }
+
+    // &
+
+    const tituloElement = document.getElementById('anima');
+
+    const estilos = [
+      { fonte: 'Arial, Helvetica, sans-serif', cor: 'red', italico: true, negrito: false },
+      { fonte: 'Verdana, Geneva, sans-serif', cor: 'blue', italico: false, negrito: true },
+      { fonte: 'Times New Roman, Times, serif', cor: 'green', italico: true, negrito: true },
+      { fonte: 'Courier New, Courier, monospace', cor: 'purple', italico: false, negrito: false },
+      { fonte: 'Georgia, serif', cor: 'orange', italico: true, negrito: true },
+      { fonte: 'Impact, Charcoal, sans-serif', cor: 'brown', italico: false, negrito: true },
+      { fonte: 'Comic Sans MS, cursive, sans-serif', cor: 'teal', italico: true, negrito: false },
+      { fonte: 'Tahoma, Geneva, sans-serif', cor: 'maroon', italico: false, negrito: true },
+      { fonte: 'Palatino Linotype, Book Antiqua, Palatino, serif', cor: 'navy', italico: true, negrito: false },
+      { fonte: 'Lucida Console, Monaco, monospace', cor: 'olive', italico: false, negrito: false }
+    ];
+
+    function aplicarEstiloAleatorio() {
+      var estiloAleatorio = estilos[Math.floor(Math.random() * estilos.length)];
+      tituloElement.style.fontFamily = estiloAleatorio.fonte;
+
+      var estiloAleatorio = estilos[Math.floor(Math.random() * estilos.length)];
+      tituloElement.style.color = estiloAleatorio.cor;
+
+      var estiloAleatorio = estilos[Math.floor(Math.random() * estilos.length)];
+      tituloElement.style.fontStyle = estiloAleatorio.italico ? 'italic' : 'normal';
+
+      var estiloAleatorio = estilos[Math.floor(Math.random() * estilos.length)];
+      tituloElement.style.fontWeight = estiloAleatorio.negrito ? 'bold' : 'normal';
+    }
+
+    function voltar_titulo()
+    {
+
+      tituloElement.style.fontFamily = 'Arial, Helvetica, sans-serif';
+      tituloElement.style.fontStyle = 'italic';
+      tituloElement.style.fontWeight = 'bold';
+      tituloElement.style.color = 'var(--c3)';
+      clearInterval(intervalo);
+
+    }
+
+    // Aplicar estilo a cada meio segundo
+    let contador = 0;
+    const intervalo = setInterval(() => {
+      aplicarEstiloAleatorio();
+      contador++;
+
+      if(contador === 12)     
+        document.getElementById('anima').innerHTML = 'PARA PROGRAMAR';
+
+      if(contador === 21)     
+        document.getElementById('anima').innerHTML = 'PARA COMPARTILHAR';
+
+      if(contador === 29)     
+        document.getElementById('anima').innerHTML = 'PARA IMAGINAR';
+
+      if(contador === 37)     
+        document.getElementById('anima').innerHTML = 'PARA CRIAR';
+
+      if(contador === 45)     
+        document.getElementById('anima').innerHTML = 'TUDO ISSO E MUITO';
+      
+      if (contador === 52) {
+
+        document.getElementById('anima').style.display = 'none';
+        document.getElementById('tititle').style.display = 'block';       
+        document.getElementById('tititle').classList.add('zoomin');
+
+      }
+
+     /* if (contador === 60)
+        document.getElementById('autor').style.display = 'block'; */ 
+      
+    }, 200);
+    
+  </script>
+</body>
+</html>

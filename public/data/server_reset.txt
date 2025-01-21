@@ -1,0 +1,15 @@
+{
+  "0": {
+    "name": "Geral",
+    "owner": "BA1 TEAM",
+    "messages": {
+      "0": {
+        "text": "Sejam bem-vindos ao Kirra chat Geral!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/icon.jpeg?v=1735647332626",
+        "username": "BA1 TEAM",
+        "date": "02/01/2025",
+        "time": "16:22"
+      }
+    }
+  }
+}

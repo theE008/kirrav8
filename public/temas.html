@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KIRRA</title>
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/icon.jpeg">
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <style>
+      main {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: 20px;
+      }
+
+      .card {
+          width: 300px;
+          margin: 15px;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+          text-align: center; /* Centraliza conteúdo */
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+      }
+
+      #imagem-atual {
+
+        background-color: var(--c1);
+        color: var(--c2);
+
+      }
+
+      .card:hover {
+          transform: scale(1.05);
+      }
+
+  </style>
+</head>
+<body>
+
+  <header id="cabecalho">
+    <h1 id="titulo">KIRRA</h1>
+    <nav id="navegacao">
+      <i onclick="ir_para('index');">Voltar</i>
+      <i onclick="ir_para('profile');">Nome </i>
+      <i onclick="ir_para('imagem');">Foto </i>
+      <i id="mudar-chat">Chats</i>
+      <i onclick="ir_para('about');" >Sobre</i>
+    </nav>
+  </header>
+
+  <div class="quebra"></div>
+
+  <main>
+    <div onclick="set_your_own();" id="div-atual" style="background-color: var(--c8);" class="card">
+        <div id="div2-atual"  style="background-color: var(--c1);">
+            <h3 id="div3-atual" style="color: var(--c3); font-size: 40px; margin-bottom: 0;">KIRRA</h3>
+            <p id="div4-atual" style="color: var(--c2); margin-top: 0;">Palheta Atual</p>
+
+        </div>
+
+          <div class="textual">Clique para criar</div>
+      
+        <div id="div5-atual" style="background-color: var(--c4); width: 100%; height: 10px;"></div>
+    </div> 
+
+
+    <div id="1t-p8" style="background-color: #371212;" class="card">
+        <div id="1t-p1" style="background-color: black;">
+            <h3 id="1t-p3" style="color: darkred; font-size: 40px; margin-bottom: 0;">KIRRA</h3>
+            <p id="1t-p2" style="color: white; margin-top: 0;">Versão bonita</p>
+        </div>
+
+        <div id="1t-pX" style="background-color: black; color: white; border-color: #b00;" class="textual" >BA1 Team</div>
+
+        <div id="1t-p4" style="background-color: #333; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="2t-p8" style="background-color: #135245;" class="card">
+        <div id="2t-p1" style="background-color: #75123A;">
+            <h3 id="2t-p3" style="color: #1A3D7C; font-size: 40px; margin-bottom: 0;">IA-KRR</h3>
+            <p id="2t-p2" style="color: #F0F0F0; margin-top: 0;">Palheta criada pelo ChatGPT</p>
+        </div>
+
+        <div id="2t-pX" style="background-color:  #D1D1D1; color: #2F3F4F; border-color: #456789;" class="textual" >BA1 Team & Chat GPT</div>
+      
+        <div id="2t-p4" style="background-color: #982345; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="3t-p8" style="background-color: yellow;" class="card">
+        <div id="3t-p1" style="background-color: pink;">
+            <h3 id="3t-p3" style="color: purple; font-size: 40px; margin-bottom: 0;">kRaio</h3>
+            <p id="3t-p2" style="color: maroon; margin-top: 0;">Versão feia</p>
+        </div>
+
+      <div id="3t-pX" style="background-color: peru !important; color: black; border-color: cyan;" class="textual" >BA1 Team</div>
+      
+        <div id="3t-p4" style="background-color: cyan; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="4t-p8" style="background-color: white;" class="card">
+        <div id="4t-p1" style="background-color: #EEE;">
+            <h3 id="4t-p3" style="color: black; font-size: 40px; margin-bottom: 0;">UkaUga</h3>
+            <p id="4t-p2" style="color: black; margin-top: 0;">Preto e branco, assim como as primeiras versões</p>
+        </div>
+
+      <div id="4t-pX" style="background-color: white; color: black; border-color: white;" class="textual" >THE INTERNET GODS</div>
+      
+        <div id="4t-p4" style="background-color: gray; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="5t-p8" style="background-color: black;" class="card">
+        <div id="5t-p1" style="background-color: #111;">
+            <h3 id="5t-p3" style="color: red; font-size: 40px; margin-bottom: 0;">KiBREU</h3>
+            <p id="5t-p2" style="color: white; margin-top: 0;">Para os sombrios</p>
+        </div>
+
+      <div id="5t-pX" style="background-color: black; color: #EEE; border-color: purple;" class="textual" >BA1 Team</div>
+      
+        <div id="5t-p4" style="background-color: purple; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="6t-p8" style="background-color: darkgray;" class="card">
+        <div id="6t-p1" style="background-color: #BBB;">
+            <h3 id="6t-p3" style="color: darkred; font-size: 40px; margin-bottom: 0;">Kirra</h3>
+            <p id="6t-p2" style="color: black; margin-top: 0;">Primeira palheta criada</p>
+        </div>
+
+        <div id="6t-pX" style="background-color: black; color: white; border-color: transparent;" class="textual" >BA1 Team</div>
+      
+        <div id="6t-p4" style="background-color: #ffc2c2; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="7t-p8" style="background-color: blue;" class="card">
+        <div id="7t-p1" style="background-color: purple;">
+            <h3 id="7t-p3" style="color: red; font-size: 40px; margin-bottom: 0;">KIBCT</h3>
+            <p id="7t-p2" style="color: orange; margin-top: 0;">???</p>
+        </div>
+
+        <div id="7t-pX" style="background-color: red; color: pink; border-color: cian;" class="textual" >Fransasco</div>
+      
+        <div id="7t-p4" style="background-color: pink; width: 100%; height: 10px;"></div>
+    </div>
+
+    <div id="8t-p8" style="background-color: #99FF99;" class="card">
+        <div id="8t-p1" style="background-color: #2E8B57;">
+            <h3 id="8t-p3" style="color: #FFFFFF; font-size: 40px; margin-bottom: 0;">KaRalho</h3>
+            <p id="8t-p2" style="color: #DDDDDD; margin-top: 0;">Qual a maior cor de todas?</p>
+        </div>
+
+        <div id="8t-pX" style="background-color: #D0F0C0; color: #333333; border-color: #90EE90;" class="textual" >Bruno</div>
+
+        <div id="8t-p4" style="background-color: #90EE90; width: 100%; height: 10px;"></div>
+    </div>
+    
+    <div>
+    <button style="width:100%;" onclick="gerarLink()">Gerar link para compartilhar palheta atual</button>
+    <br>
+    <textarea id="linkGerado" rows="4" cols="50" readonly></textarea>
+    <br>
+    <button style="width:100%;" onclick="copiarLink()">Copiar Link</button>
+    </div> 
+  </main>
+
+  <div id="infogeral">
+
+    <span id="esquerda">
+      <i class="fa-solid fa-comments"></i>
+    </span>
+
+    <span id="direita">
+      <i onclick="ir_para('profile');" class="fa-solid fa-signature"></i>
+      <i onclick="ir_para('index');" class="fa-solid fa-house"></i>
+    </span>
+
+  </div>
+
+  <div id="ign" class="quebra"></div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c70ac41f4e.js" 
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    
+    //////////////////////////////////////////////////////////////////////////
+    // envio de palheta
+    function gerarLink()
+    {
+        // Obtém os valores do localStorage
+        const corCabec = localStorage.getItem("cor-cabec") || "";
+        const corExtra = localStorage.getItem("cor-extra") || "";
+        const corTitul = localStorage.getItem("cor-titul") || "";
+        const corEspec = localStorage.getItem("cor-espec") || "";
+        const corFundo = localStorage.getItem("cor-fundo") || "";
+        const corBkgMe = localStorage.getItem("cor-bkgMe") || "";
+        const corTxtMe = localStorage.getItem("cor-txtMe") || "";
+        const corBorda = localStorage.getItem("cor-borda") || "";
+        const siteName = localStorage.getItem("sitename") || "DefaultName";
+
+        // Cria o link com base nos valores
+        const baseUrl = "https://kirra-v8.glitch.me/temas.html";
+        const link = `${baseUrl}?a=${encodeURIComponent(corCabec)}&b=${encodeURIComponent(corExtra)}&c=${encodeURIComponent(corTitul)}&d=${encodeURIComponent(corEspec)}&e=${encodeURIComponent(corFundo)}&f=${encodeURIComponent(corBkgMe)}&g=${encodeURIComponent(corTxtMe)}&h=${encodeURIComponent(corBorda)}&i=${encodeURIComponent(siteName)}`;
+
+        // Exibe o link no textarea
+        document.getElementById("linkGerado").value = link;
+    }
+
+    function copiarLink()
+    {
+        const textarea = document.getElementById("linkGerado");
+        textarea.select();
+        document.execCommand("copy");
+        alert("Link copiado para a área de transferência!");
+    }
+    //////////////////////////////////////////////////////////////////////////
+    
+    // mudar se o link for personalizado
+    const params = new URLSearchParams (window.location.search);
+    
+    const c_a = params.get ('a');
+    const c_b = params.get ('b');
+    const c_c = params.get ('c');
+    const c_d = params.get ('d');
+    const c_e = params.get ('e');
+    const c_f = params.get ('f');
+    const c_g = params.get ('g');
+    const c_h = params.get ('h');
+    const c_i = params.get ('i');
+    if (c_i)
+    {
+      if(c_a) localStorage.setItem("cor-cabec", c_a);
+      if(c_b) localStorage.setItem("cor-extra", c_b);
+      if(c_c) localStorage.setItem("cor-titul", c_c);
+      if(c_d) localStorage.setItem("cor-espec", c_d);
+      if(c_e) localStorage.setItem("cor-fundo", c_e);
+      
+      if(c_f) localStorage.setItem("cor-bkgMe", c_f);
+      if(c_g) localStorage.setItem("cor-txtMe", c_g);
+      if(c_h) localStorage.setItem("cor-borda", c_h);
+
+      if(c_i) localStorage.setItem("sitename" , c_i);
+
+      nomear_site(1);
+      
+      ir_para ("https://kirra-v8.glitch.me/temas");
+    }
+    
+    if (localStorage.getItem ("nsfw") != "true")
+    {
+      document.getElementById("3t-p3").innerHTML = "Kremosa";
+      document.getElementById("7t-p3").innerHTML = "KREDO";
+      document.getElementById("8t-p3").innerHTML = "KroKodilo";
+    }
+    
+    function set_your_own()
+    {
+      exibir_input("Qual cor deseja para o cabeçalho?")
+        .then(function (a) {
+          exibir_input("Ótimo, e que cor prefere para os subtítulos?")
+            .then(function (b) {
+              exibir_input("Tô acompanhando, que tal mudar o título agora?")
+                .then(function (c) {
+                  exibir_input("CREDO, vamos com calma! Agora escolha uma cor aí pra detalhes aleatórios")
+                    .then(function (d) {
+                      exibir_input("Acabe logo com meu sofrimento, escolha uma cor de fundo...")
+                        .then(function (e) {
+                          exibir_input("Agora cor para o fundo da caixa de texto")
+                            .then(function (f) {
+                              exibir_input("Agora para o texto da caixa")
+                                .then(function (g) {
+                                   exibir_input("Uma decoraçãozinha pra borda agora")
+                                    .then(function (h) {
+                                      exibir_input("Agora dê um nome pra esta aberração")
+                                        .then(function (i) {
+
+                                            if(a)localStorage.setItem("cor-cabec", a);
+                                            if(b)localStorage.setItem("cor-extra", b);
+                                            if(c)localStorage.setItem("cor-titul", c);
+                                            if(d)localStorage.setItem("cor-espec", d);
+                                            if(e)localStorage.setItem("cor-fundo", e);
+                                    
+                                            if(f)localStorage.setItem("cor-bkgMe", f);
+                                            if(g)localStorage.setItem("cor-txtMe", g);
+                                            if(h)localStorage.setItem("cor-borda", h);
+
+                                            if(i)localStorage.setItem("sitename" , i);
+
+                                            nomear_site(1);
+                                            cor_load();
+
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+
+
+    function pegar_cor_obj(id)
+    {
+
+      return (document.getElementById(id).style.backgroundColor)?
+              document.getElementById(id).style.backgroundColor:
+              document.getElementById(id).style.color;
+
+    }
+
+    function bloquinho(qual, id, oq)
+    {
+
+      var c1 = pegar_cor_obj(qual + id);
+      localStorage.setItem(oq, c1);
+      document.documentElement.style.setProperty('--c'+ id, c1);
+
+    }
+    
+    function bloquinho_para_textual(qual)
+    {
+      var id = 'X';
+
+      var c5 = document.getElementById(qual + id).style.backgroundColor;
+      var c6 = document.getElementById(qual + id).style.color;
+      var c7 = document.getElementById(qual + id).style.borderColor;
+      
+      localStorage.setItem('cor-bkgMe', c5);
+      localStorage.setItem('cor-txtMe', c6);
+      localStorage.setItem('cor-borda', c7);
+      
+      document.documentElement.style.setProperty('--c5', c5);
+      document.documentElement.style.setProperty('--c6', c6);
+      document.documentElement.style.setProperty('--c7', c7);
+
+    }
+
+    function atualizar_paleta(qual)
+    {
+
+      bloquinho(qual, '1', 'cor-cabec');
+      bloquinho(qual, '2', 'cor-extra');
+      bloquinho(qual, '3', 'cor-titul');
+      bloquinho(qual, '4', 'cor-espec');
+      //bloquinho(qual, '5', 'cor-txtbg');
+      //bloquinho(qual, '6', 'cor-txttx');
+      //bloquinho(qual, '7', 'cor-txtbo');
+      bloquinho(qual, '8', 'cor-fundo');
+      
+      bloquinho_para_textual (qual);
+      
+      localStorage.setItem("sitename", document.getElementById(qual + '3').innerHTML);
+      nomear_site(1);
+
+    }
+
+    function adicionar_listener (id)
+    {
+
+    document.getElementById(id + "t-p8")
+    .addEventListener("click", function() {
+          atualizar_paleta(id + "t-p");
+    });
+
+    }
+
+    adicionar_listener(1);
+    adicionar_listener(2);
+    adicionar_listener(3);
+    adicionar_listener(4);
+    adicionar_listener(5);
+    adicionar_listener(6);
+    adicionar_listener(7);
+    adicionar_listener(8);
+
+    nomear_site(1);
+
+  </script>
+</body>
+
+</html>
