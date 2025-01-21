@@ -1,0 +1,903 @@
+{
+  "0": {
+    "name": "Geral",
+    "owner": "pedro padeiro",
+    "messages": {
+      "0": {
+        "text": "sou pedro padeiro",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pragas_5_66_1538744895.jpg?v=1735662955380",
+        "username": "pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:57"
+      },
+      "1": {
+        "text": "eu acho que não",
+        "avatar": "https://pbs.twimg.com/profile_images/1861573739600609280/OT_hWe-e_400x400.jpg",
+        "username": "evil pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:58"
+      },
+      "2": {
+        "text": "NÃO, VOCÊ NÃO VAI ROUBAR MEU LUGAR, EU SOU O ORIGINAL",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pragas_5_66_1538744895.jpg?v=1735662955380",
+        "username": "pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:59"
+      },
+      "3": {
+        "text": "lasanha",
+        "avatar": "https://pbs.twimg.com/profile_images/1861573739600609280/OT_hWe-e_400x400.jpg",
+        "username": "evil pedro padeiro",
+        "date": "01/01/2025",
+        "time": "00:00"
+      },
+      "4": {
+        "text": "oi",
+        "avatar": "https://example.com/default-avatar.png",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:01"
+      },
+      "5": {
+        "text": "xerath",
+        "avatar": "https://example.com/default-avatar.png",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:02"
+      },
+      "6": {
+        "text": "fodase",
+        "avatar": "https://example.com/default-avatar.png",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:03"
+      },
+      "7": {
+        "text": "pera, funcionou?",
+        "avatar": "https://example.com/default-avatar.png",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:04"
+      },
+      "8": {
+        "text": "teste novo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:05"
+      },
+      "9": {
+        "text": "peidei forte",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:06"
+      },
+      "10": {
+        "text": "putaquepariu",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:07"
+      },
+      "11": {
+        "text": "eu consegui fazer funcionar kk",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:08"
+      },
+      "12": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:09"
+      },
+      "13": {
+        "text": "xerath",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:10"
+      },
+      "14": {
+        "text": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qAuaElV-0pk?si=_2MNqgeoCCrdgPLX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:11"
+      },
+      "15": {
+        "text": "n roda pq ta atualizando toda hora kk",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:12"
+      },
+      "16": {
+        "text": "desativei",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp%2Fa2.png?v=1735647340872",
+        "username": "placeholder",
+        "date": "01/01/2025",
+        "time": "00:13"
+      },
+      "17": {
+        "text": "teste]",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "pedro padeiro",
+        "date": "01/01/2025",
+        "time": "00:14"
+      },
+      "18": {
+        "text": "FOI",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "pedro padeiro",
+        "date": "01/01/2025",
+        "time": "00:15"
+      },
+      "19": {
+        "text": "eu consegui",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "20": {
+        "text": "so não vou apagar esse chat ainda porque ta de historico",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "21": {
+        "text": "são 23:57  31/12/2024by the way",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "22": {
+        "text": "feliz natal ",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Picancias Eabunda",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "23": {
+        "text": "Fran, nem fudendo. feliz ano novo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Picancias Eabunda",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "24": {
+        "text": "são uma da manhã ",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Picancias Eabunda",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "25": {
+        "text": "CARA, tá só perfeito. foto de perfil, nome, mensagem. só falta data e hora",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Picancias Eabunda",
+        "date": "01/01/2025",
+        "time": "00:16"
+      },
+      "26": {
+        "text": "testando",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "placeholder",
+        "time": "placeholder"
+      },
+      "27": {
+        "text": "teste dnv",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "1/0/2025",
+        "time": "4:4"
+      },
+      "28": {
+        "text": "amigo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "1/1/2025",
+        "time": "6:6"
+      },
+      "29": {
+        "text": "inimigo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "1/1/2025",
+        "time": "6:6"
+      },
+      "30": {
+        "text": "amargo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "1/1/2025",
+        "time": "16:7"
+      },
+      "31": {
+        "text": "doce",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a2.png",
+        "username": "Oridão Oritandeiro",
+        "date": "01/01/2025",
+        "time": "16:08"
+      },
+      "32": {
+        "text": "peidei",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "16:13"
+      },
+      "33": {
+        "text": "não!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fixo Wesgado",
+        "date": "01/01/2025",
+        "time": "20:08"
+      },
+      "34": {
+        "text": "oi???",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "20:57"
+      },
+      "35": {
+        "text": "olá!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "20:57"
+      },
+      "36": {
+        "text": "funcionando?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fixo Wesgado",
+        "date": "01/01/2025",
+        "time": "20:58"
+      },
+      "37": {
+        "text": "sim",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "20:58"
+      },
+      "38": {
+        "text": "ai bolsonaro",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "20:59"
+      },
+      "39": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:05"
+      },
+      "40": {
+        "text": "um!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:27"
+      },
+      "41": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:38"
+      },
+      "42": {
+        "text": "funcionou ja",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:39"
+      },
+      "43": {
+        "text": "sem meme",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:39"
+      },
+      "44": {
+        "text": "será?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:40"
+      },
+      "45": {
+        "text": "sem meme?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:40"
+      },
+      "46": {
+        "text": "eu quase odeio quão fácil era isso",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:46"
+      },
+      "47": {
+        "text": "vsferrar chatgpt",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:47"
+      },
+      "48": {
+        "text": "peido",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:49"
+      },
+      "49": {
+        "text": "foi mal",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:49"
+      },
+      "50": {
+        "text": "acontece",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:49"
+      },
+      "51": {
+        "text": "agora tá 100% funcional",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:49"
+      },
+      "52": {
+        "text": "consegue ler isso?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:49"
+      },
+      "53": {
+        "text": "sim",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:50"
+      },
+      "54": {
+        "text": "e voce?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:50"
+      },
+      "55": {
+        "text": "tá scrollando pra ti nas mensagens que mando?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:50"
+      },
+      "56": {
+        "text": "ta",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:50"
+      },
+      "57": {
+        "text": "cara, isso tem tantos bugs KKKKKKKKKK tu tá vendo o que rola sempre que envia uma mensagem?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "58": {
+        "text": "mas o que ta me encomodando é a mensagem aparecer no bglh de digitar antes do servert",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "59": {
+        "text": "ss kk",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "60": {
+        "text": "SIM CARA, NÃO FAZ SENTIDO ISSO",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "61": {
+        "text": "tem um warn, é mó estranho.",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "62": {
+        "text": "eu acho que foi o codiggo do gpt",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:51"
+      },
+      "63": {
+        "text": "o soquete cria um bglh temporario para atualizar o codigo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "64": {
+        "text": "envez de enviar",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "65": {
+        "text": "A gente precisa de um README para anotar bugs e futuras features, porque isso sinceramente tá absurdo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "66": {
+        "text": "ta engraçado pelo menos ",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "67": {
+        "text": "mas ss",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "68": {
+        "text": "á",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "69": {
+        "text": "olha pelo lado bom, a gente ta usando isso de verdade",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "70": {
+        "text": "real né",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "71": {
+        "text": "e tá aparentemente instantâneo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:52"
+      },
+      "72": {
+        "text": "meu pc tá sofrendo um pouco",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:53"
+      },
+      "73": {
+        "text": "não sei dizer se é pelo kirra",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:53"
+      },
+      "74": {
+        "text": "se for é triste ",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:53"
+      },
+      "75": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:53"
+      },
+      "76": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:56"
+      },
+      "77": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:57"
+      },
+      "78": {
+        "text": "olá!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:59"
+      },
+      "79": {
+        "text": "este",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:59"
+      },
+      "80": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "21:59"
+      },
+      "81": {
+        "text": "o chat trocou de lugar",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "21:59"
+      },
+      "82": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:00"
+      },
+      "83": {
+        "text": "arrumou?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:01"
+      },
+      "84": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:04"
+      },
+      "85": {
+        "text": "sergio",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:05"
+      },
+      "86": {
+        "text": "chapão",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:06"
+      },
+      "87": {
+        "text": "seiga",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:06"
+      },
+      "88": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:08"
+      },
+      "89": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "90": {
+        "text": "bogonha",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "91": {
+        "text": "HA",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "92": {
+        "text": "manda mensagem aí",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "93": {
+        "text": "pq tem essa bolinha do lado?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "94": {
+        "text": "que bol PORQUE TEM ESSA BOLINHA DO LADO",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "95": {
+        "text": "EU NEM IA NOTAR",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "96": {
+        "text": "KKKKKKKKKKKKKKKK",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "97": {
+        "text": "tem um padrão",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "98": {
+        "text": "ela só existe em mensagem nova",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:09"
+      },
+      "99": {
+        "text": "então é coisa no código recente",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:10"
+      },
+      "100": {
+        "text": "pode ser ma feature em",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:10"
+      },
+      "101": {
+        "text": "\"nova mensagem\" mas ele marcar todas as mensagems que existe",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:10"
+      },
+      "102": {
+        "text": "tu removeu?",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:13"
+      },
+      "103": {
+        "text": "ainda não",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:13"
+      },
+      "104": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:14"
+      },
+      "105": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:14"
+      },
+      "106": {
+        "text": "eu sou o grande penis",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:16"
+      },
+      "107": {
+        "text": "ignora na real",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:17"
+      },
+      "108": {
+        "text": "foi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:17"
+      },
+      "109": {
+        "text": "so ta bugado agora ",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "22:17"
+      },
+      "110": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:56"
+      },
+      "111": {
+        "text": "tenho a impressão que eu digitei algo em um server e caiu nos dois",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:57"
+      },
+      "112": {
+        "text": "não, era só impressão mesmo",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "22:57"
+      },
+      "113": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "23:03"
+      },
+      "114": {
+        "text": "Boa tarde",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "23:08"
+      },
+      "115": {
+        "text": "Boa tarde",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Letíduro Oripau",
+        "date": "02/01/2025",
+        "time": "14:20"
+      },
+      "116": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "02/01/2025",
+        "time": "15:08"
+      },
+      "117": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "02/01/2025",
+        "time": "15:08"
+      },
+      "118": {
+        "text": "pimba",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "02/01/2025",
+        "time": "15:11"
+      },
+      "119": {
+        "text": "teste",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "02/01/2025",
+        "time": "15:14"
+      }
+    }
+  },
+  "1": {
+    "name": "Beta",
+    "owner": "codigo",
+    "messages": {
+      "0": {
+        "text": "sou pedro padeiro",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pragas_5_66_1538744895.jpg?v=1735662955380",
+        "username": "pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:57"
+      },
+      "1": {
+        "text": "eu acho que não",
+        "avatar": "https://pbs.twimg.com/profile_images/1861573739600609280/OT_hWe-e_400x400.jpg",
+        "username": "evil pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:58"
+      },
+      "2": {
+        "text": "NÃO, VOCÊ NÃO VAI ROUBAR MEU LUGAR, EU SOU O ORIGINAL",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pragas_5_66_1538744895.jpg?v=1735662955380",
+        "username": "pedro padeiro",
+        "date": "31/12/2024",
+        "time": "23:59"
+      },
+      "3": {
+        "text": "lasanha",
+        "avatar": "https://pbs.twimg.com/profile_images/1861573739600609280/OT_hWe-e_400x400.jpg",
+        "username": "evil pedro padeiro",
+        "date": "01/01/2025",
+        "time": "00:00"
+      },
+      "4": {
+        "text": "oi",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/a3.png",
+        "username": "Fran",
+        "date": "01/01/2025",
+        "time": "23:04"
+      },
+      "5": {
+        "text": "olá!",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Thiago",
+        "date": "01/01/2025",
+        "time": "23:08"
+      },
+      "6": {
+        "text": "boa tarde aos presentes",
+        "avatar": "https://cdn.glitch.global/30d43f34-a9a5-44e7-938e-be372afcfde1/pfp/s5.png",
+        "username": "Letíduro Oripau",
+        "date": "02/01/2025",
+        "time": "14:21"
+      }
+    }
+  }
+}

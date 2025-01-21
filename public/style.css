@@ -1,0 +1,321 @@
+:root 
+{
+
+  --c1: black;
+  --c2: white;
+
+  --c3: darkred;
+  --c4: #333333;
+  
+  --c5: #000000;
+  --c6: #ffffff;
+  --c7: #bb0000;
+  
+  --c8: #371212;
+}
+
+iframe
+{
+
+  width: 100%;
+  
+}
+
+html 
+{
+
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--c8);
+  color: var(--c1);
+
+}
+
+
+.quebra {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.thx {
+
+  text-align: center;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.textual 
+{
+  
+  background-color: var(--c5);
+  color: var(--c6);
+  border: 1px solid var(--c7); /* Adiciona uma borda para separação e estética */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 10px; /* Espaçamento interno para o conteúdo */
+  margin: 10px; /* Espaçamento externo entre as caixas de texto */
+  left: 2%;
+  right: 2%;/* Largura das caixas de texto (ajuste conforme necessário) */
+  font-size: 14px; /* Tamanho da fonte */
+
+  /* nao sair coisa da div */
+  /*overflow: hidden; /* Isso evita que o texto saia da div */
+  word-wrap: break-word; /* Isso faz com que o texto quebre quando necessário */
+  
+}
+
+#titulo 
+{
+
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+  color: var(--c3);
+  max-height: 100px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+#navegacao
+{
+
+  text-align: center;
+  color: var(--c2);
+
+}
+
+#cabecalho
+{
+
+  background-color: var(--c1);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+
+#infogeral 
+{
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--c1);
+  color: var(--c4);
+  padding: 10px;
+  text-align: center;
+  border-top: 5px solid var(--c8); 
+
+}
+
+#mensagem-f
+{
+
+  width: 80%;
+  margin-bottom: 5px;
+  height: 30px;
+  border-radius: 7px;
+
+}
+
+#submit
+{
+
+  margin-bottom: 5px;
+  height: 30px;
+  border-radius: 7px;
+
+}
+
+#submit-icone
+{
+
+  display: none;
+
+}
+
+#direita
+{
+
+  float: right;
+  margin-right: 20px;
+
+}
+
+#esquerda
+{
+
+  float: left;
+
+} 
+
+#profile-main
+{
+
+  float: none;
+  margin-top: 18px;
+  background-color: var(--c1);
+  color: var(--c2);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  bottom: 50px;
+
+}
+
+#profile-seuhtml 
+{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 18px;
+  background-color: var(--c1);
+  color: var(--c2);
+  border-radius: 5px;
+  bottom: 50px;
+  
+}
+
+#profile-change, #profile-open
+{
+  
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--c3);
+  color: var(--c2);
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  
+}
+
+#profile-change:hover, #profile-open:hover
+{
+
+  background-color: var(--c4);
+  
+}
+
+#profile-seuhtml iframe 
+{
+  
+  margin-top: 20px;
+  
+}
+
+#profile-usuario
+{
+
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  object-fit: cover;
+  float:left;
+  
+}
+
+#profile-caixa
+{
+
+  float:left;
+
+}
+
+#profile-recardo
+{
+
+  float: none;
+  clear: both;
+  text-align: justify;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  
+}
+
+@media screen and (max-width: 320px)
+{
+
+  #titulo
+  {
+
+    font-size: 80px !important;
+
+  }
+
+  #profile-usuario
+  {
+
+    width: 95%;
+    height: 95%;
+    
+  }
+
+  .datahora {display: none ! important;}
+}
+
+@media screen and (max-width: 425px)
+{
+
+  #submit-enviar
+  {
+
+    display: none;
+
+  }
+
+  #submit-icone
+  {
+
+    display: inline;
+
+  }
+  
+  .datahora {display: none !important;}
+
+}
+
+@media screen and (min-width: 768px)
+{
+
+  #titulo
+  {
+
+    float: left;
+
+  }
+
+  #navegacao
+  {
+
+    float:right;
+    margin-top: 40px;
+    margin-right: 10px;
+
+  }
+
+  #cabecalho
+  {
+
+    height: 80px;
+
+  }
+
+  #profile-main
+  {
+
+    margin-top: 25px;
+
+  }
+
+}
